@@ -1,0 +1,143 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* 
+font-family: 'Ubuntu', sans-serif; */
+
+.title {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-43.5%);
+  -ms-transform: translateX(-50%);
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  color: #000000;
+  z-index: 1;
+}
+/* 
+.col{
+    padding: 0;
+} */
+
+.left {
+  background-color: #ffcf47;
+  padding-top: 12rem;
+  text-align: center;
+}
+
+.right {
+  background-color: #3a9bff;
+  padding-top: 12rem;
+  text-align: center;
+}
+
+.dice {
+  margin: 3rem auto;
+  width: 10rem;
+  visibility: hidden;
+}
+
+
+.diceBg{
+  position: relative;
+  margin: 10px auto 0 auto;
+  width: 400px;
+  height: 250px;
+/* left: 150px;
+top: 275px; */
+  background: rgba(255, 255, 255, 0.3);
+
+}
+
+.play{
+  font-size: 4rem;
+  color: rgb(87, 87, 87);
+}
+.play:active{
+  color: rgb(116, 116, 116);
+}
+
+.play1{
+  width: 10rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.play2{
+  width: 10rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+
+.win{
+  margin: 1rem auto;
+  padding-bottom: 15rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 83px;
+  color: #FFF;
+  visibility: hidden;
+}
+
+.rd{
+  visibility: hidden;
+}
+
+.reload{
+  position: absolute;
+  font-size: 5rem;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-43.5%);
+  -ms-transform: translateX(-50%);
+}
+.reloadText{
+  position: absolute;
+  font-size: 4rem;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-45%);
+  -ms-transform: translateX(-50%);
+}
+
+
+.example_b {
+  position: absolute;
+  font-size: 3rem;
+  padding: 1rem 1rem;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #60a3bc;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+
+  }
+  
+  .example_b:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    }
